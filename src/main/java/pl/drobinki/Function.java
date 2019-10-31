@@ -23,7 +23,7 @@ public class Function {
             @CosmosDBOutput(name = "items",
                     databaseName = "ToDoList",
                     collectionName = "Items",
-                    connectionStringSetting = "AccountEndpoint=https://658885af-0ee0-4-231-b9ee.documents.azure.com:443/;AccountKey=Orww5H9CEJSaZwJ10X365DbI5aWMo1VAmmfAcSMmd9zr9pmJyM05kytWIYec83UTpdHAES54k7zAajfTK9Z6cA==;")
+                    connectionStringSetting = "AccountEndpoint=xxx")
                     OutputBinding<String> outputItem,
             final ExecutionContext context) {
         context.getLogger().info("Java HTTP trigger processed a request.");
